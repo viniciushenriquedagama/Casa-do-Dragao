@@ -52,7 +52,6 @@ body {
     color: #ffffff;
     line-height: 40px;
     height: 300px;
-    overflow: auto;
     padding-right: 15px;
 
 }
@@ -98,8 +97,8 @@ main::after{
     width: 100vw;
     position: fixed;
     top: 0;
-    left: 0;
-    background-image: linear-gradient(120deg, #08080846 10%, #03000a28 50%, black);
+    left: 0; 
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
     z-index: -1;
     
 }
