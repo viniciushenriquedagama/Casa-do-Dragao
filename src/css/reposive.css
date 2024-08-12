@@ -11,8 +11,11 @@
         align-items: center;
     }
     .informacoes .descricao {
-        width: 60%;
+        width: 80%;
         text-align: center;
+    }
+    .conteudo{
+        gap: 200px;
     }
 }
 @media (max-width: 425px){
@@ -24,7 +27,7 @@
     }
 
     .conteudo{
-        min-height: 70vh;
+        min-height: 80vh;
         gap: 50px;
     }
 }
